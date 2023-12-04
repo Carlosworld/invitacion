@@ -12,7 +12,7 @@ body {
     padding: 0 !important;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    background-color: #ffffff;
+    background-color: #0044cc;
 }
 
 body::-webkit-scrollbar {
@@ -23,12 +23,16 @@ body::-webkit-scrollbar {
     font-family: 'Sacramento', cursive !important;
     color: #ffffff !important;
 }
+.font-esthetic-gold {
+    font-family: 'Sacramento', cursive !important;
+    color:#fcf800 !important;
+}
 .font-esthetic-neon {
     font-family: 'Sacramento', cursive !important;
-    font-weight: bold; /* Letra más gruesa */
-    color: #ffffff; /* Azul rey */
+    font-weight: bold; /*Letra más gruesa */
+    color:#ffffff; /* Azul rey */
     text-shadow: 0 0 10px #0044cc, 0 0 20px #0044cc, 0 0 30px #0044cc; /* Sombras para el efecto neon */
-  }
+}
 
   .neon-text {
     font-family: 'Arial', sans-serif;
@@ -90,7 +94,7 @@ body::-webkit-scrollbar {
 .mouse-animation {
     padding: 0.25rem 0.625rem;
     height: 2rem;
-    border: 0.1rem solid #fff;
+    border: 0.1rem solid #ff0000;
     border-radius: 1.4rem;
     opacity: 0.75;
     box-sizing: content-box;
@@ -117,28 +121,24 @@ body::-webkit-scrollbar {
     width: 0.25rem;
     height: 0.625rem;
     border-radius: 25%;
-    background-color: #ffffff;
+    background-color: #ff0000;
     animation-name: scroll;
     animation-duration: 2.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
-.dark-section {
-    background-color: #0044cc !important;
-    margin-top: -0.4rem;
-    margin-bottom: -0.4rem;
-}
 
 .my-seccion {
-    background-image: url('/assets/images/fondo.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen */
+    background-image: url('/assets/images/fondo-invitacion.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen */
     background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el fondo */
     background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
     /* Puedes agregar más estilos según tus necesidades */
     /* Altura de la sección, ajusta según sea necesario */
     color: #9db1ff; /* Color del texto en la sección (opcional, para asegurar que el texto sea legible) */
-    padding-bottom: 70px; /* Añade un poco de espacio al contenido dentro de la sección (opcional) */
+    padding-bottom: auto; /* Añade un poco de espacio al contenido dentro de la sección (opcional) */
+    margin-top: auto; /* Añade un poco de espacio al contenido dentro de la sección (opcional) */
     
   }
 
