@@ -137,9 +137,8 @@ body::-webkit-scrollbar {
     /* Puedes agregar más estilos según tus necesidades */
     /* Altura de la sección, ajusta según sea necesario */
     color: #9db1ff; /* Color del texto en la sección (opcional, para asegurar que el texto sea legible) */
-    padding-bottom: auto; /* Añade un poco de espacio al contenido dentro de la sección (opcional) */
-    margin-top: auto; /* Añade un poco de espacio al contenido dentro de la sección (opcional) */
-    
+    padding-bottom: 700px; /* Añade un poco de espacio al contenido dentro de la sección (opcional) */
+
   }
 
 footer {
