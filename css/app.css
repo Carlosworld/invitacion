@@ -30,7 +30,9 @@ body::-webkit-scrollbar {
 }
 .font-esthetic-gold {
     font-family: 'Sacramento', cursive !important;
-    color:#fcf800 !important;
+    color:#0044cc !important;
+    text-shadow: 0 0 10px #0044cc, 0 0 20px #0044cc, 0 0 30px #fff;
+
 }
 .font-esthetic-neon {
    
@@ -142,20 +144,36 @@ body::-webkit-scrollbar {
      background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
       background-position: center; /* Centra la imagen en el fondo */
       background-repeat: no-repeat;
-      padding-top: 100px;
-      padding-bottom: 600px;
+      
   
   }
   /* Estilos para dispositivos móviles */
 @media (max-width: 767px) {
     /* Agrega estilos específicos para pantallas pequeñas */
     .font-esthetic-neon {
-        font-size: 50px;
+        font-size: 100px;
+        
+    }
+    .font-esthetic {
+        font-size: 60px;
+        
+    }
+    .font-esthetic-gold {
+        font-size: 70px;
         
     }
     .my-seccion{
         padding-top: 300px;
         padding-bottom: 400px;
+    }
+
+    iframe{
+        width: 400px;
+        height: 250px;
+    }
+
+    h4{
+        padding-top: 25%;
     }
     
   }
@@ -164,14 +182,30 @@ body::-webkit-scrollbar {
   @media (min-width: 768px) and (max-width: 1023px) {
     /* Agrega estilos específicos para tabletas */
     .font-esthetic-neon {
-        font-size: 55px;
+        font-size: 110px;
+    }
+    .font-esthetic {
+        font-size: 80px;
+        
+    }
+    .font-esthetic-gold {
+        font-size: 80px;   
     }
 
     .my-seccion{
-        padding-top: 150px;
+        padding-top: 350px;
         background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
         background-position: center; /* Centra la imagen en el fondo */
         background-repeat: no-repeat;
+        padding-bottom: 300px;
+    }
+    h4{
+        padding-top: 25%;
+    }
+
+    iframe{
+        width: 500px;
+        height: 350px;
     }
   }
   
@@ -179,7 +213,29 @@ body::-webkit-scrollbar {
   @media (min-width: 1024px) {
     /* Agrega estilos específicos para pantallas más grandes */
     .font-esthetic-neon {
+        font-size: 100px;
+    }
+
+    .font-esthetic {
+        font-size: 80px;
+        
+    }
+    .font-esthetic-gold {
         font-size: 60px;
+    }
+
+    .my-seccion{
+        padding-top: 500px;
+      padding-bottom: 600px;
+    }
+
+    iframe{
+        width: 500px;
+        height: 350px;
+    }
+
+    h4{
+        padding-top: 25%;
     }
    
   }
