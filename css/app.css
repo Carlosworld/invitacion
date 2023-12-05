@@ -1,4 +1,5 @@
 
+
 h4{
     font-weight: bold; /* Letra más gruesa */
     color: #ffffff; /* Azul rey */
@@ -32,10 +33,11 @@ body::-webkit-scrollbar {
     color:#fcf800 !important;
 }
 .font-esthetic-neon {
+   
     font-family: 'Sacramento', cursive !important;
     font-weight: bold; /*Letra más gruesa */
-    color:#0044cc; /* Azul rey */
-    /* text-shadow: 0 0 10px #0044cc, 0 0 20px #0044cc, 0 0 30px #0044cc; Sombras para el efecto neon */
+    color:#fff; /* Azul rey */
+    text-shadow: 0 0 10px #0044cc, 0 0 20px #0044cc, 0 0 30px #0044cc;
 }
 
   .neon-text {
@@ -140,8 +142,46 @@ body::-webkit-scrollbar {
      background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
       background-position: center; /* Centra la imagen en el fondo */
       background-repeat: no-repeat;
-      margin-bottom: 10%;
+      padding-top: 100px;
+      padding-bottom: 600px;
   
+  }
+  /* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    /* Agrega estilos específicos para pantallas pequeñas */
+    .font-esthetic-neon {
+        font-size: 50px;
+        
+    }
+    .my-seccion{
+        padding-top: 300px;
+        padding-bottom: 400px;
+    }
+    
+  }
+  
+  /* Estilos para tabletas */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Agrega estilos específicos para tabletas */
+    .font-esthetic-neon {
+        font-size: 55px;
+    }
+
+    .my-seccion{
+        padding-top: 150px;
+        background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+        background-position: center; /* Centra la imagen en el fondo */
+        background-repeat: no-repeat;
+    }
+  }
+  
+  /* Estilos para computadoras de escritorio */
+  @media (min-width: 1024px) {
+    /* Agrega estilos específicos para pantallas más grandes */
+    .font-esthetic-neon {
+        font-size: 60px;
+    }
+   
   }
   
 footer {
