@@ -1,3 +1,4 @@
+
 h4{
     font-weight: bold; /* Letra más gruesa */
     color: #ffffff; /* Azul rey */
@@ -71,7 +72,7 @@ body::-webkit-scrollbar {
 }
 .mause-text{
     text-align: center;
-    color: #0044cc; /* Azul rey */
+    color: #fff; /* Azul rey */
     text-shadow: 0 0 10px #0044cc, 0 0 20px #0044cc, 0 0 30px #0044cc; /* Sombras para el efecto neon */
 }
 
@@ -137,10 +138,11 @@ body::-webkit-scrollbar {
     /* Puedes agregar más estilos según tus necesidades */
     /* Altura de la sección, ajusta según sea necesario */
     color: #9db1ff; /* Color del texto en la sección (opcional, para asegurar que el texto sea legible) */
-    padding-bottom: 700px; /* Añade un poco de espacio al contenido dentro de la sección (opcional) */
-
+     /* Añade un poco de espacio al contenido dentro de la sección (opcional) */
+    max-width: 100%;
+ 
   }
-
+  
 footer {
     background-color: #0044cc !important;
     margin-top: -0.4rem;
