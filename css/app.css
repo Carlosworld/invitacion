@@ -198,7 +198,7 @@ body::-webkit-scrollbar {
     }
 
     h4 {
-        padding-top: 300px;
+        padding-top: 10%;
     }
 
     .container {
@@ -235,7 +235,7 @@ body::-webkit-scrollbar {
     }
 
     h4 {
-        padding-top: 25%;
+        padding-top: 15%;
     }
 
     iframe {
@@ -273,7 +273,7 @@ body::-webkit-scrollbar {
     }
 
     h4 {
-        padding-top: 25%;
+        padding-top: 15%;
     }
 
 }
