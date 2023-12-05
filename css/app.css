@@ -15,8 +15,6 @@ body {
     padding: 0 !important;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    background-color: #0044cc;
-
    
 }
 
@@ -40,6 +38,7 @@ body::-webkit-scrollbar {
     font-weight: bold; /*Letra más gruesa */
     color:#fff; /* Azul rey */
     text-shadow: 0 0 10px #0044cc, 0 0 20px #0044cc, 0 0 30px #0044cc;
+    z-index: 3;
 }
 
   .neon-text {
@@ -79,8 +78,8 @@ body::-webkit-scrollbar {
 }
 .mause-text{
     text-align: center;
-    color: #fff; /* Azul rey */
-    text-shadow: 0 0 10px #0044cc, 0 0 20px #0044cc, 0 0 30px #0044cc; /* Sombras para el efecto neon */
+    color: #0044cc; /* Azul rey */
+    text-shadow: 0 0 10px #0044cc, 0 0 20px #fff, 0 0 30px #fff; /* Sombras para el efecto neon */
 }
 
 .loading-page {
@@ -145,13 +144,16 @@ body::-webkit-scrollbar {
       background-position: center; /* Centra la imagen en el fondo */
       background-repeat: no-repeat;
       
+      background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
+    
+      
   
   }
   /* Estilos para dispositivos móviles */
 @media (max-width: 767px) {
     /* Agrega estilos específicos para pantallas pequeñas */
     .font-esthetic-neon {
-        font-size: 100px;
+        font-size: 60px;
         
     }
     .font-esthetic {
@@ -159,7 +161,7 @@ body::-webkit-scrollbar {
         
     }
     .font-esthetic-gold {
-        font-size: 70px;
+        font-size: 50px;
         
     }
     .my-seccion{
@@ -182,7 +184,7 @@ body::-webkit-scrollbar {
   @media (min-width: 768px) and (max-width: 1023px) {
     /* Agrega estilos específicos para tabletas */
     .font-esthetic-neon {
-        font-size: 110px;
+        font-size: 90px;
     }
     .font-esthetic {
         font-size: 80px;
@@ -227,6 +229,7 @@ body::-webkit-scrollbar {
     .my-seccion{
         padding-top: 500px;
       padding-bottom: 600px;
+      
     }
 
     iframe{
