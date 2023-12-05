@@ -65,8 +65,8 @@ body::-webkit-scrollbar {
 }
 
 .img-crop {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
