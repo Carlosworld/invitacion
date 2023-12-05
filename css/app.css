@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
 .font-esthetic-gold {
     font-family: 'Sacramento', cursive !important;
     color:#0044cc !important;
-    text-shadow: 0 0 10px #0044cc, 0 0 20px #0044cc, 0 0 30px #fff;
+    text-shadow: 0 0 10px #0044cc, 0 0 20px #fff, 0 0 30px #fff;
 
 }
 .font-esthetic-neon {
@@ -161,12 +161,14 @@ body::-webkit-scrollbar {
         
     }
     .font-esthetic-gold {
-        font-size: 50px;
-        
+        font-size: 50px;        
     }
     .my-seccion{
         padding-top: 300px;
         padding-bottom: 400px;
+        background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+        background-position: center; /* Centra la imagen en el fondo */
+        background-repeat: no-repeat;
     }
 
     iframe{
