@@ -177,6 +177,9 @@ body::-webkit-scrollbar {
     h4{
         padding-top: 25%;
     }
+    .container{
+        width: 600px;
+    }
     
   }
   
