@@ -6,6 +6,7 @@ h4{
 }
 html {
     scroll-behavior: smooth;
+ 
 }
 
 body {
@@ -14,6 +15,8 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
     background-color: #0044cc;
+
+   
 }
 
 body::-webkit-scrollbar {
@@ -31,8 +34,8 @@ body::-webkit-scrollbar {
 .font-esthetic-neon {
     font-family: 'Sacramento', cursive !important;
     font-weight: bold; /*Letra más gruesa */
-    color:#ffffff; /* Azul rey */
-    text-shadow: 0 0 10px #0044cc, 0 0 20px #0044cc, 0 0 30px #0044cc; /* Sombras para el efecto neon */
+    color:#0044cc; /* Azul rey */
+    /* text-shadow: 0 0 10px #0044cc, 0 0 20px #0044cc, 0 0 30px #0044cc; Sombras para el efecto neon */
 }
 
   .neon-text {
@@ -132,15 +135,13 @@ body::-webkit-scrollbar {
 
 .my-seccion {
     background-image: url('/assets/images/fondo-invitacion.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen */
-    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
-    background-position: center; /* Centra la imagen en el fondo */
-    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
-    /* Puedes agregar más estilos según tus necesidades */
-    /* Altura de la sección, ajusta según sea necesario */
-    color: #9db1ff; /* Color del texto en la sección (opcional, para asegurar que el texto sea legible) */
-     /* Añade un poco de espacio al contenido dentro de la sección (opcional) */
-    max-width: 100%;
- 
+
+      /* 100% del alto de la ventana visible */
+     background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+      background-position: center; /* Centra la imagen en el fondo */
+      background-repeat: no-repeat;
+      margin-bottom: 10%;
+  
   }
   
 footer {
